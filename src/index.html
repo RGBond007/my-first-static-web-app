@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zenode Blog</title>
   <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
 </head>
-
 <body>
+  <header>
+    <div class="container">
+      <h1>Zenode Blog</h1>
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#latest-posts">Latest Posts</a></li>
+          <li><a href="about-us.html">About</a></li>
+          <li><a href="services-page.html">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <main>
-    <h1>Vanilla JavaScript App</h1>
+    <div class="container">
+      <section id="home">
+        <h2 class="section-title">Welcome to Zenode</h2>
+        <p class="section-text">This is our company's blog where we share insights and updates about the world of technology. Feel free to browse around and leave a comment if you like.</p>
+        <a href="#latest-posts" class="link">Read More</a>
+        <img src="image.jpg" alt="A relevant image for the blog">
+      </section>
+
+      <section id="latest-posts">
+        <h2 class="section-title">Latest Posts</h2>
+        <article class="post">
+          <h3 class="post-title">The Importance of Cybersecurity for Small Businesses</h3>
+          <p class="section-text">Cybersecurity is often overlooked by small businesses, but it's crucial to protect your data and reputation. In this post, we'll share some tips for improving your cybersecurity and keeping your business safe.</p>
+          <a href="post-1.html">Read More</a>
+        </article>
+      </section>
+
+      <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-text">If you have any questions or comments, please don't hesitate to reach out. We'd love to hear from you!</p>
+        <a href="#contact-us">Send a Message</a>
+      </section>
+    </div>
   </main>
 </body>
-
 </html>
